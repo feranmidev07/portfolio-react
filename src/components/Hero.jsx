@@ -2,7 +2,7 @@ import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
 import { styles } from '../styles';
 import { navLinks } from '../constants';
-import { skybreaker, bwmap, worldmap } from '../assets';
+import { webweaver, bwmap, worldmap } from '../assets';
 
 const Hero = () => {
   return (
@@ -42,13 +42,10 @@ const Hero = () => {
                 className="sm:text-battleGray sm:text-[90px] 
                 text-eerieBlack text-[50px] font-mova
                 font-extrabold uppercase">
-                Michael Guzik
+                Feranmi Oyebola
               </span>
             </h1>
-            <p className={`${styles.heroSubText} mt-2 text-eerieBlack`}>
-              A Full-Stack Developer<br className="sm:block hidden" />
-              Specializing in Web Technologies
-            </p>
+    
           </div>
           <div
             className="w-screen flex flex-col items-start 
@@ -86,8 +83,8 @@ const Hero = () => {
             className="absolute bottom-0 ml-[50vw] 
             lg:ml-[75vw] md:ml-[60vw] xmd:ml-[60vw] 2xl:ml-[83vw]
             sm:h-[90vh] md:h-[70vh] xl:h-[80vh]"
-            src={skybreaker}
-            alt="skybreaker"
+            src={webweaver}
+            alt="webweaver"
           />
         </div>
       </section>

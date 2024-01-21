@@ -13,6 +13,8 @@ import {
   git,
   figma,
   docker,
+  flutter,
+  dart,
   postgresql,
   rubyrails,
   graphql,
@@ -21,10 +23,8 @@ import {
   math,
   movie,
   nyeusi,
-  space,
   coverhunt,
   dcc,
-  kelhel,
   microverse,
 } from '../assets';
 
@@ -115,29 +115,44 @@ const technologies = [
     name: 'docker',
     icon: docker,
   },
+  {
+    name: 'flutter',
+    icon: flutter,
+  },
+  {
+    name: 'dart',
+    icon: dart,
+  }
 ];
 
 const experiences = [
   {
     title: 'Front-End Developer',
-    company_name: 'MidWave',
+    company_name: 'OmegaTech',
     icon: coverhunt,
     iconBg: '#333333',
     date: 'Aug 2021 - Feb 2022',
   },
   {
     title: 'Mentor (Volunteer)',
-    company_name: 'MicroTech',
+    company_name: 'Z-Gen',
     icon: microverse,
     iconBg: '#333333',
     date: 'Mar 2022 - May 2022',
   },
   {
     title: 'Full Stack Developer',
-    company_name: 'WhiteHat',
+    company_name: 'OmegaTech',
     icon: dcc,
     iconBg: '#333333',
     date: 'Sep 2022 - Present',
+  },
+  {
+    title: 'App Developer',
+    company_name: 'OmegaTech',
+    icon: dcc,
+    iconBg: '#333333',
+    date: 'April 2023 - Present',
   },
 ];
 

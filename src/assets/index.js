@@ -6,7 +6,7 @@ import worldmap from './backgrounds/world-map.png';
 import logo from './logo/logo-black.png';
 import logotext from './logo/logo-text-black.png';
 
-import skybreaker from './personal/skybreaker.png';
+import webweaver from './personal/webweaver.png';
 
 import backend from './icons/backend.png';
 import ux from './icons/ux.png';
@@ -37,6 +37,8 @@ import typescript from './tech/typescript.png';
 import graphql from './tech/graphql.png';
 import postgresql from './tech/postgresql.png';
 import rubyrails from './tech/rubyrails.png';
+import flutter from './tech/flutter.png';
+import dart from './tech/dart.png';
 
 import coverhunt from './company/coverhunt.png';
 import dcc from './company/dcc.png';
@@ -57,7 +59,7 @@ export {
   worldmap,
   logo,
   logotext,
-  skybreaker,
+  webweaver,
   backend,
   ux,
   frontend,
@@ -96,4 +98,6 @@ export {
   dcc,
   kelhel,
   microverse,
+  flutter,
+  dart
 };
