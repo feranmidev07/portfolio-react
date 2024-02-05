@@ -1,4 +1,5 @@
 import {
+  mobile,
   frontend,
   backend,
   ux,
@@ -55,6 +56,10 @@ const services = [
   {
     title: 'UI/UX Design',
     icon: ux,
+  },
+  {
+    title: 'Mobile App Developer',
+    icon: mobile,
   }
 ];
 

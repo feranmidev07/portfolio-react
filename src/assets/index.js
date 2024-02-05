@@ -10,6 +10,7 @@ import webweaver from './personal/webweaver.png';
 
 import backend from './icons/backend.png';
 import ux from './icons/ux.png';
+import mobile from './icons/mobile-app.png';
 import frontend from './icons/frontend.png';
 import prototyping from './icons/prototyping.png';
 import github from './icons/github.png';
@@ -53,6 +54,7 @@ import nyeusi from './projects/nyeusi.png';
 import space from './projects/space-hub.png';
 
 export {
+  mobile,
   bwmap,
   nairobi,
   whiteabstract,
